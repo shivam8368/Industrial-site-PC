@@ -4,7 +4,7 @@ import JsonData from './data/data.json'
 import MainContext from './Context';
 
 
-const Provider = () => {
+const Provider = props => {
     
     const [pageData, setPageData] = useState({});
 
@@ -13,10 +13,12 @@ const Provider = () => {
     }, [])
 
     return(
-        <MainContext.Provider value={{data : pageData}}>
+        <MainContext.Provider value={{data:pageData}}>
             {props.children}
         </MainContext.Provider>
     )
 
 
 }
+
+export default Provider
