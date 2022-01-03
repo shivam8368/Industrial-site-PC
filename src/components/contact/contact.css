@@ -1,6 +1,6 @@
 #contact {
     padding: 100px 0 60px;
-    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    background: rgb(175,198,244);
     color: rgba(255, 255, 255, 0.75);
   }
   #contact .section-title {
@@ -50,7 +50,7 @@
   label {
     font-size: 12px;
     font-weight: 400;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Popins", sans-serif;
     float: left;
   }
   #contact .form-control {

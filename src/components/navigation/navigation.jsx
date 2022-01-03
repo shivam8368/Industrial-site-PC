@@ -2,7 +2,7 @@ import './navigation.css'
 import { Link } from 'react-router-dom'
 export const Navigation = (props) => {
   return (
-    <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
+    <nav id='menu' className='navbar  navbar-fixed-top'>
       <div className='container'>
         <div className='navbar-header'>
           <button
