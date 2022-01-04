@@ -245,6 +245,21 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
+
+
+@media screen and (min-width:600px) {
+    
+    .intro-text {
+      margin-left: -110px;
+    }
+
+    .intro-imgae {
+      margin: 0 auto;
+      padding-top: 350px;
+    }
+
+
+  }
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -473,7 +488,7 @@ header .intro-text {
 #contact {
   padding: 100px 0 60px;
   background-color: #f1f6fd;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(0, 0, 0, 0.75);
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -482,7 +497,7 @@ header .intro-text {
   font-size: 16px;
 }
 #contact h2 {
-  color: #fff;
+  color: rgba(0, 0, 0, 0.75);
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
