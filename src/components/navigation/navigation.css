@@ -7,17 +7,25 @@
   background-color: transparent;
   
 }
+
+#menu.navbar.active{
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+}
+
 #menu a.navbar-brand {
   font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
   font-weight: 600;
-  color: #333;
+  color: #f1f6fd;
   text-transform: capitalize;
+
 }
+
+
 #menu.navbar .navbar-nav > li > a {
   font-family:  "Poppins", sans-serif;
   text-transform: capitalize;
-  color: #555;
+  color: #f1f6fd;
   font-size: 1.7rem;
   font-weight: lighter;
   padding: 8px 2px;
@@ -30,7 +38,7 @@
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background-color: #f1f6fd;
   content: "";
   transition: width 0.2s;
 }
@@ -60,7 +68,7 @@
 }
 .navbar .navbar-toggle:hover,
 .navbar .navbar-toggle:focus {
-  background-color: #fff;
+  background-color: transparent;
   border-color: #608dfd;
 }
 .navbar .navbar-toggle:hover > .icon-bar {
@@ -130,7 +138,9 @@ a:focus,
   outline-offset: none;
 }
 
-
+.nav > li > a:hover{
+  background:transparent;
+}
 
 
 @media screen and (min-width: 600px){

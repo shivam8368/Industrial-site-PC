@@ -1,8 +1,22 @@
 import './navigation.css'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 export const Navigation = (props) => {
+
+  const [navbar, setNavbar] = useState(false);
+
+  const chnageBackground = () => {
+    if (window.scrollY >= 70) {
+      setNavbar(true)
+    } else {
+      setNavbar(false)
+    };
+  };
+
+  window.addEventListener('scroll', chnageBackground);
+
   return (
-    <nav id='menu' className='navbar  navbar-fixed-top'>
+    <nav id='menu' className={navbar ? 'navbar active navbar-fixed-top' : 'navbar navbar-fixed-top'}>
       <div className='container'>
         <div className='navbar-header'>
           <button

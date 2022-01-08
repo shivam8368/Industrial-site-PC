@@ -3,7 +3,7 @@
     display: table;
     width: 100%;
     padding: 0;
-    background-image: url('./images/headerBg.jpeg');
+    background-image: url('./images/headerBg3.jpeg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -12,22 +12,27 @@
   
   .intro h1 {
     font-family: "Poppins", sans-serif;
-    color: #333333;
-    font-size: 4.5rem;;
+    color: #f1fdf4;
+    font-size: 3rem;;
     font-weight: 700;
     text-transform: capitalize;
     margin-top: 0;
     margin-bottom: 10px;
   }
+
+  .intro .overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
   .intro h1 span {
     font-weight: 800;
     color: #5ca9fb;
   }
   .intro p {
-    color: #333333;
-    font-size: 2rem;
+    color: #f1fdf4;
+    font-size: 5rem;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 60px;
     margin: 0 auto;
     margin-bottom: 60px;
   }
